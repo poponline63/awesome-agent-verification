@@ -1,5 +1,4 @@
-# Awesome Agent Verification
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Agent Verification [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Tools and practices for deciding whether autonomous agent work is actually done: eval harnesses, LLM judges, tracing, guardrails, benchmark suites, and the discipline of writing a finish line down before the work starts.
 
@@ -14,8 +13,6 @@ An agent that reports success is not evidence of success. This list collects the
 - [Guardrails and Output Validation](#guardrails-and-output-validation)
 - [Data and Behaviour Assertions](#data-and-behaviour-assertions)
 - [Spec and Acceptance Discipline](#spec-and-acceptance-discipline)
-- [Related Lists](#related-lists)
-- [Contributing](#contributing)
 
 ## Eval Frameworks
 
