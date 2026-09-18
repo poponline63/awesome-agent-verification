@@ -1,5 +1,4 @@
 # Awesome Agent Verification
-
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Tools and practices for deciding whether autonomous agent work is actually done: eval harnesses, LLM judges, tracing, guardrails, benchmark suites, and the discipline of writing a finish line down before the work starts.
@@ -16,6 +15,7 @@ An agent that reports success is not evidence of success. This list collects the
 - [Data and Behaviour Assertions](#data-and-behaviour-assertions)
 - [Spec and Acceptance Discipline](#spec-and-acceptance-discipline)
 - [Related Lists](#related-lists)
+- [Contributing](#contributing)
 
 ## Eval Frameworks
 
@@ -31,8 +31,6 @@ An agent that reports success is not evidence of success. This list collects the
 
 ## LLM as a Judge
 
-- [guardrails](https://github.com/guardrails-ai/guardrails#readme) - Validate and correct model output against a schema, with re-asking when a check fails.
-- [OpenAI Guardrails](https://github.com/openai/openai-guardrails-python#readme) - The same idea as a first-party library for the OpenAI Agents SDK.
 - [anthropics/evals](https://github.com/anthropics/evals#readme) - Worked examples of rubric and model-graded evaluation, including agentic grading.
 - [llm-judge](https://github.com/motasemwed/llm-judge#readme) - Small rubric-based judge service, useful as a shape to copy rather than a dependency.
 
@@ -59,7 +57,7 @@ An agent that reports success is not evidence of success. This list collects the
 ## Guardrails and Output Validation
 
 - [guardrails](https://github.com/guardrails-ai/guardrails#readme) - Schema, type and policy validation around model calls, with automatic correction loops.
-- [Guardrails for the OpenAI Agents SDK](https://github.com/openai/openai-guardrails-python#readme) - Input and output guardrails wired into an agent's own lifecycle hooks.
+- [OpenAI Guardrails](https://github.com/openai/openai-guardrails-python#readme) - Input and output guardrails wired into an agent's own lifecycle hooks through the Agents SDK.
 - [Skyvern](https://github.com/Skyvern-AI/skyvern#readme) - Browser automation whose steps are verified against the page state rather than assumed from a click.
 
 ## Data and Behaviour Assertions
@@ -83,9 +81,3 @@ An agent that reports success is not evidence of success. This list collects the
 ## Contributing
 
 Contributions are welcome. Read the [contribution guidelines](CONTRIBUTING.md) first, then open a pull request.
-
-## License
-
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
-
-To the extent possible under law, the contributors have waived all copyright and related rights to this work.
