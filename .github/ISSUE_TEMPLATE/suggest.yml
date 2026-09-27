@@ -1,0 +1,38 @@
+name: Suggest a project
+description: Point out something that belongs on the list (a pull request is even better)
+labels: [suggestion]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Project link
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Eval Frameworks
+        - LLM as a Judge
+        - Benchmarks and Task Suites
+        - Tracing and Observability
+        - Guardrails and Output Validation
+        - Data and Behaviour Assertions
+        - Spec and Acceptance Discipline
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: How does it help decide whether agent work is actually done?
+      description: Measurement, inspection or enforcement. See CONTRIBUTING.md for what belongs.
+    validations:
+      required: true
+  - type: checkboxes
+    id: author
+    attributes:
+      label: Disclosure
+      options:
+        - label: I am an author or maintainer of this project

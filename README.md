@@ -68,6 +68,7 @@ An agent that reports success is not evidence of success. This list collects the
 - [Spec Kit](https://github.com/github/spec-kit#readme) - Spec-driven development workflow for agents, from specification to tasks to implementation.
 - [Agent-Proof](https://github.com/Consecutive-Gen-AI/Agent-Proof-#readme) - Independent verification of agent claims, with a tamper-evident record of what ran.
 - [agent-trace](https://github.com/oleg-vdv/agent-trace#readme) - Inventory and tamper detection for agent artefacts, aimed at proving what a run actually did.
+- [north-star](https://github.com/poponline63/north-star#readme) - Agent skill that refuses finish lines no run could satisfy, then gates completion with shell checks and a probability-scored judge.
 
 ## Related Lists
 
